@@ -1,0 +1,32 @@
+.weather-app {
+  text-align: center;
+  padding-top: 50px;
+  background: rgb(2, 0, 36);
+  /* background: linear-gradient(0deg, rgb(82 77 167) 0%, rgba(0, 212, 255, 1) 67%, rgba(0, 212, 255, 1) 100%); */
+  background: linear-gradient(135deg,#00feba,#5b548a);
+  height: 500px;
+  width: 50%;
+  margin: auto;
+  border-radius: 50px;
+}
+.btn:hover {
+  color: #525252;
+  background-color: var(--bs-btn-hover-bg);
+  border-color: var(--bs-btn-hover-border-color);
+}
+.location {
+  margin-top: 50px;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 600;
+}
+.temp {
+  font-size: 60px;
+  font-weight: 500;
+  color: #fff;
+}
+.condition {
+  font-size: 27px;
+  font-weight: 500;
+  color: #fff;
+}
